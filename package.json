@@ -2,8 +2,9 @@
   "name": "react",
   "version": "1.0.0",
   "description": "using parcel",
-  
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -13,6 +14,8 @@
   "author": "sreenadh",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.12.0",
     "process": "^0.11.10"
   },
